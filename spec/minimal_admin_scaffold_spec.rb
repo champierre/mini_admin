@@ -4,6 +4,6 @@ RSpec.describe MinimalAdminScaffold do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(MinimalAdminScaffold.greet).to eq("Hello")
   end
 end
