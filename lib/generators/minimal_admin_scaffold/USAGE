@@ -1,0 +1,8 @@
+Description:
+    Rails admin scaffolding generator for minimalists. This generates controllers, views files for admin pages as few as possible.
+
+Example:
+    rails generate minimal_admin_scaffold Thing
+
+    This will create:
+        config/initializers/initializer.rb
