@@ -50,8 +50,8 @@ class MinimalAdminScaffoldGenerator < Rails::Generators::NamedBase
     end
   end
 
-  def editable_attributes
-    attributes ||= model_columns_for_attributes.map do |column|
+  def attributes
+    model_columns_for_attributes.map do |column|
       Rails::Generators::GeneratedAttribute.new(column.name.to_s, column.type.to_s)
     end
   end

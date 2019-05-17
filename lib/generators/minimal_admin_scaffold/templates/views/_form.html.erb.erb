@@ -11,7 +11,7 @@
     </div>
   <%% end %>
 
-<% editable_attributes.each do |attribute| -%>
+<% attributes.each do |attribute| -%>
   <div class="field">
 <% if attribute.password_digest? -%>
     <%%= f.label :password %>
