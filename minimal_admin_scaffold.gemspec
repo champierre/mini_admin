@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "minimal_admin_scaffold/version"
+require "mini_admin/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "minimal_admin_scaffold"
-  spec.version       = MinimalAdminScaffold::VERSION
+  spec.name          = "mini_admin"
+  spec.version       = MiniAdmin::VERSION
   spec.authors       = ["Junya Ishihara"]
   spec.email         = ["webmaster@champierre.com"]
 
   spec.summary       = %q{Minimal Rails admin scaffolding generator}
   spec.description   = %q{Rails admin scaffolding generator for minimalists. This generates controllers, views files for admin pages as few as possible.}
-  spec.homepage      = "https://github.com/champierre/minimal_admin_scaffold"
+  spec.homepage      = "https://github.com/champierre/mini_admin"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.

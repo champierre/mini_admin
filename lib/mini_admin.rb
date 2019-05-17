@@ -1,6 +1,6 @@
-require "minimal_admin_scaffold/version"
+require "mini_admin/version"
 
-module MinimalAdminScaffold
+module MiniAdmin
   class Error < StandardError; end
 
   def self.greet

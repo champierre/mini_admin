@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "minimal_admin_scaffold"
+require "mini_admin"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

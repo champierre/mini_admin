@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    minimal_admin_scaffold (0.1.0)
+    mini_admin (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,7 +27,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.17)
-  minimal_admin_scaffold!
+  mini_admin!
   rake (~> 10.0)
   rspec (~> 3.0)
 
