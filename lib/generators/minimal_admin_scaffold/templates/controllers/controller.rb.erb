@@ -1,11 +1,13 @@
-class Admin::<%= class_name %>Controller < AdminController
+class <%= prefixed_controller_class_name %>Controller < AdminController
   def index
+    @<%= plural_table_name %> = <%= orm_class.all(class_name) %>
   end
 
   def show
   end
 
   def new
+    @<%= singular_table_name %> = <%= orm_class.build(class_name) %>
   end
 
   def edit
@@ -22,5 +24,9 @@ class Admin::<%= class_name %>Controller < AdminController
 
   private
   def set_
+  end
+
+  def <%= "#{singular_table_name}_params" %>
+    params.require(:<%= singular_name %>).permit(<%= editable_attributes.map { |a| ":#{a.name}" }.join(', ') %>)
   end
 end

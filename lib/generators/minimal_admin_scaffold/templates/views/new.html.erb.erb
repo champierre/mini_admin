@@ -1,1 +1,5 @@
-new
+<h1><%%= t('New <%= singular_table_name %>') %></h1>
+
+<%%= render 'form' %>
+
+<%%= link_to t('Back'), <%= prefixed_index_helper %>_path %>
