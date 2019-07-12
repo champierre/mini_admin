@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-$ bin/rails g mini_admin <model name>
+    $ bin/rails g mini_admin <model name>
 
 ## Development
 
