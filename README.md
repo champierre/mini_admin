@@ -22,6 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
+You need to create the model and run the migration script in advance.
+
     $ bin/rails g mini_admin <model name>
 
 ## Development
